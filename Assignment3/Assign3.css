@@ -1,0 +1,23 @@
+header {
+    width: 80%;
+    margin: 0 auto; /* To center the header */
+    padding: 20px;
+    background-color: #464648; 
+  }
+
+  img {
+    display: block;
+  }
+
+  main {
+    width: 80%;
+    margin: 0 auto; /* To center the main content */
+    padding: 20px;
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .bold {
+    font-weight: bold;
+  }

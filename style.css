@@ -1,0 +1,25 @@
+body {
+	background-color: #A9C5C6;
+}
+
+header {
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: black;
+}
+
+ul {
+	list-style-type: square;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+footer {
+	text-transform: uppercase;
+
+}
