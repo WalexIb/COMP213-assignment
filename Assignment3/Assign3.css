@@ -9,10 +9,25 @@ header {
     display: block;
   }
 
+  * {
+    box-sizing: border-box;
+  } 
+
+  body {
+    background: linear-gradient(to bottom, #daf564, #e0e2d8);
+    font-family: Arial, sans-serif; 
+    height: 100vh; 
+    margin: 0; 
+  }
+
   main {
     width: 80%;
     margin: 0 auto; /* To center the main content */
     padding: 20px;
+    margin-bottom:1.5em;
+    background-color: #FFFFFF;
+   
+
     h1 {
       text-align: center;
     }
@@ -21,3 +36,15 @@ header {
   .bold {
     font-weight: bold;
   }
+
+  .block {
+    display: block;
+  }
+
+  footer {
+    width: 80%;
+    margin: auto; 
+    background-color: #FFFFFF;
+
+  }
+

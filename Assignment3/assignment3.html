@@ -1,18 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <title>Performance Evaluation Form</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="assign3.css">
     </head>
+
     <body>
         <header>
             <img src="images/centennialcollege_logo.jpg" alt="" width="576" height="186">
         </header>
         <main>
             <h1>Instructor Evaluation Form</h1>
-            <p>“Please read each statement carefully and consider each one individually. Use the <span class="bold">form options</span> to make your choice.”</p>
+            <p>Please read each statement carefully and consider each one individually. Use the <span class="bold">form options</span> to make your choice.</p>
+        
+            <form action="/action_page.php">
+                <fieldset>
+                <legend>Course Information</legend>
+
+                <label class="block" for="cname">Course name and Code:</label>
+                <input type="text" id="cname" name="course_name" value="">
+
+                <p>Semester</p>
+                <input type="radio" id="Winter" name="choice_semester" value="Winter">
+                <label for="Winter">Winter</label>
+
+                <input type="radio" id="Spring" name="choice_semester" value="Spring">
+                <label for="Spring">Spring/Summer</label>
+                
+                <input type="radio" id="Fall" name="choice_semester" value="Fall">
+                <label for="fall">Fall</label><br><br>
+                
+                <label class="block" for="year">Year:</label>
+                <input type="number" min="2010" max="2025" step="1" value="2023"><br><br>
+
+                <label class="block" for="Insname">Instructor's Name:</label>
+                <input type="text" id="Insname" name="Insname">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Student Feedback</legend>
+    
+                    <label class="block" for="performance">How effective was the instructor’s teaching?</label>
+                    <select id="performance" name="performance">
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Fair">Fair</option>
+                        <option value="Not Satisfactory">Not Satisfactory</option>
+                    </select><br><br>
+                        
+                    <label class="block" for="helpfulness">How helpful were the course materials?</label>
+                    <input list="helpfulness_options" id="helpfulness" name="helpfulness">
+                    <datalist id="helpfulness_options">
+                        <option value="Very Helpful">
+                        <option value="Helpful">
+                        <option value="Unhelpful">
+                        <option value="Very Unhelpful">
+                    </datalist><br><br>
+
+                    <label class="block" for="comments">Do you have any other Comments?</label>
+                    <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Form Submission</legend>
+                    <input type="submit" value="Submit Form">
+                    <input type="reset" value="Reset Form">
+                </fieldset>
+            </form>
         </main>
+        <footer>
+            <span class="block">Thank you! We pay attention to your feedback!</span>
+            <span class="block">Web: <a href="https://www.centennialcollege.ca/" target="_blank">Centenial College Website</a></span>
+            <span class="block">Email: <a href="mailto:feedback@centennialcollege.ca">feedback@centennialcollege.ca</a></span>
+        </footer>
+
     </body>
 </html> 
  
