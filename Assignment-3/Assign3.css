@@ -1,7 +1,7 @@
 header {
     width: 80%;
-    margin: 0 auto; /* To center the header */
-    padding: 20px;
+    margin: auto; 
+    padding: 20px;  
     background-color: #464648; 
   }
 
@@ -14,17 +14,16 @@ header {
   } 
 
   body {
-    background: linear-gradient(to bottom, #daf564, #e0e2d8);
+    background: linear-gradient(to bottom, #daf564, #eeebee);
     font-family: Arial, sans-serif; 
     height: 100vh; 
     margin: 0; 
   }
 
-  main {
+  main, footer {
     width: 80%;
-    margin: 0 auto; /* To center the main content */
+    margin: auto; 
     padding: 20px;
-    margin-bottom:1.5em;
     background-color: #FFFFFF;
    
 
@@ -41,10 +40,4 @@ header {
     display: block;
   }
 
-  footer {
-    width: 80%;
-    margin: auto; 
-    background-color: #FFFFFF;
-
-  }
-
+  
